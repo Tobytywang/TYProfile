@@ -1,48 +1,55 @@
 #!/usr/local/bin/python
 # -*- encoding: utf-8 -*-
 
-"""
-功能：获得系统中安装的python\go\node\php\ruby\java六种主要语言的版本
-"""
+#"""
+#Function: Get Version of Python\Go\Node\PHP\Ruby\Java
+#"""
 
 import os
+import re
 
 def get_result_of_cmd(cmd):
-	"""获得指定命令的回显"""
+	"""Get Echo"""
 	f = os.popen(cmd)
 	return f.read()
 
 def get_version_of_python():
-	"""解析python的脚本"""
+	"""Get Python Version"""
 	ret = get_result_of_cmd('python --version')
-	print(ret)
+	ver = re.search(r'\d+\.\d+\.\d+', ret).group()
+	print("Python Version: \t" + ver)
 
 def get_version_of_go():
-	"""解析go的脚本"""
+	"""Get Go Version"""
 	ret = get_result_of_cmd('go version')
-	print(ret)
+	ver = re.search(r'\d+\.\d+\.\d+', ret).group()
+	print("Go Version: \t" + ver)
 
 def get_version_of_node():
-	"""解析node的脚本"""
+	"""Get Node Version"""
 	ret_node = get_result_of_cmd('node --version')
-	print(ret_node)
+	ver = re.search(r'\d+\.\d+\.\d+', ret_node).group()
+	print("Node Version: \t" + ver)
 	ret_npm = get_result_of_cmd('npm --version')
-	print(ret_npm)
+	ver = re.search(r'\d+\.\d+\.\d+', ret_npm).group()
+	print("Npm Version: \t" + ver)
 
 def get_version_of_php():
-	"""解析php的脚本"""
+	"""Get PHP Version"""
 	ret = get_result_of_cmd('php --version')
-	print(ret)
+	ver = re.search(r'\d+\.\d+\.\d+', ret).group()
+	print("PHP Version: \t" + ver)
 
 def get_version_of_java():
-	"""解析java的脚本"""
+	"""Get Java Version"""
 	ret = get_result_of_cmd('java -version')
-	print(ret)
+	ver = re.search(r'\d+\.\d+\.\d+', ret).group()
+	print("Java Version: \t" + ver)
 
 
 if __name__ == '__main__':
 	get_version_of_python()
 	get_version_of_go()
 	get_version_of_node()
-	get_version_of_php()
-	get_version_of_java()
+	#get_version_of_php()
+	#get_version_of_java()
