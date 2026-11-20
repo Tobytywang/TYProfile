@@ -1,0 +1,94 @@
+{
+  "useTaobaoRegistry": false,
+  "presets": {
+    "default_0316": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-typescript": {
+          "classComponent": true,
+          "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-router": {
+          "historyMode": false
+        },
+        "@vue/cli-plugin-vuex": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "vueVersion": "3",
+      "cssPreprocessor": "dart-sass"
+    },
+    "default_0316_2": {
+      "useConfigFiles": false,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-typescript": {
+          "classComponent": true,
+          "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-router": {
+          "historyMode": true
+        },
+        "@vue/cli-plugin-vuex": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "vueVersion": "3",
+      "cssPreprocessor": "dart-sass"
+    },
+    "Default_0514_for_books": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-typescript": {
+          "classComponent": true,
+          "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-router": {
+          "historyMode": false
+        },
+        "@vue/cli-plugin-vuex": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "base",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "vueVersion": "3",
+      "cssPreprocessor": "dart-sass"
+    },
+    "vue3_by_default_0825": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-typescript": {
+          "classComponent": true,
+          "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-router": {
+          "historyMode": true
+        },
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "vueVersion": "3",
+      "cssPreprocessor": "dart-sass"
+    }
+  },
+  "latestVersion": "5.0.8",
+  "lastChecked": 1661361770086
+}

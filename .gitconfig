@@ -1,0 +1,11 @@
+[winUpdater]
+	recentlySeenVersion = 2.25.0.windows.1
+[user]
+	email = tobytywang@163.com
+	name = tobytywang
+[http]
+	sslVerify = false
+[safe]
+	directory = E:/3_project/13_happylich
+[core]
+	sshCommand = C:/Windows/System32/OpenSSH/ssh.exe

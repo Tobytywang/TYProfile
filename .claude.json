@@ -1,0 +1,64 @@
+{
+  "numStartups": 3,
+  "theme": "dark-ansi",
+  "tipsHistory": {
+    "new-user-warmup": 1,
+    "plan-mode-for-complex-tasks": 1,
+    "terminal-setup": 1,
+    "memory-command": 1,
+    "theme-command": 1,
+    "powershell-tool-env": 1,
+    "status-line": 2,
+    "prompt-queue": 2,
+    "enter-to-steer-in-relatime": 2,
+    "todo-list": 3,
+    "install-github-app": 3,
+    "install-slack-app": 3,
+    "drag-and-drop-images": 3,
+    "double-esc-code-restore": 3,
+    "continue": 3,
+    "shift-tab": 3,
+    "image-paste": 3,
+    "desktop-app": 3,
+    "default-permission-mode-config": 3,
+    "web-app": 3,
+    "mobile-app": 3,
+    "frontend-design-plugin": 3
+  },
+  "promptQueueUseCount": 1,
+  "firstStartTime": "2026-03-09T15:36:17.417Z",
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "userID": "f00a2a53ee16bdfc487864718b22bd420344e78206ce86e4393513ee4b92f682",
+  "clientDataCache": {
+    "data": null,
+    "timestamp": 1773070577696
+  },
+  "migrationVersion": 11,
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "2.1.101",
+  "lastReleaseNotesSeen": "2.1.101",
+  "projects": {
+    "C:/Users/wangt": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": []
+    }
+  },
+  "ideHintShownCount": 1,
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": true,
+  "metricsStatusCache": {
+    "enabled": false,
+    "timestamp": 1776949753104
+  },
+  "lastPlanModeUse": 1776952412710,
+  "showSpinnerTree": false
+}

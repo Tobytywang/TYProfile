@@ -1,0 +1,30 @@
+# 主目录默认全部不跟踪（白名单模式）
+/*
+
+# 放行规则文件本身
+!/.gitignore
+
+# Shell / Vim 配置
+!/.bashrc
+!/.bash_profile
+!/.profile
+!/.zshrc
+!/.vimrc
+
+# Git / npm 配置
+!/.gitconfig
+!/.npmrc
+
+# 终端 / 编辑器 / CLI 配置
+!/.minttyrc
+!/.vuerc
+!/.claude.json
+
+# 显式排除，便于阅读（实际已被 /* 覆盖）
+/.bash_history
+/.python_history
+/.viminfo
+/.lesshst
+/NTUSER.DAT*
+/ntuser.dat*
+/ntuser.ini
